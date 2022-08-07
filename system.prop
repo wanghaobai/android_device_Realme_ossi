@@ -1,0 +1,22 @@
+ro.secure=0
+ro.adb.secure=0
+ro.debuggable=1
+persist.sys.isUsbOtgEnabled=true
+ro.sys.usb.mtp.whql.enable=0
+ro.sys.usb.storage.type=mtp
+ro.vendor.mediatek.platform=MT6895
+
+# Fstab
+ro.postinstall.fstab.prefix=/system
+
+# USB MTP
+ro.sys.usb.storage.type=mtp
+
+# Crypto
+ro.crypto.volume.filenames_mode=aes-256-cts
+
+# Gatekeeper
+ro.hardware.gatekeeper=trustonic
+
+# HideReflashTWRP
+ro.twrp.vendor_boot=true
